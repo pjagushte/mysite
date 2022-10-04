@@ -1,0 +1,290 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Segoe UI';
+    font-size: 18px
+}
+
+
+
+#icon_head {
+    height: 53px;
+    width: 60px;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+.dropup, .dropdown {
+    width: 100px;
+    height: 30px;
+}
+
+.container container-fluid {
+    background-color: black;
+}
+
+i {
+    color: white;
+}
+
+a {
+    color: #00579E;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #802727;
+    }
+
+p {
+    padding: 0 0 5px 0;
+}
+
+/*  Toggol button */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.panel-group {
+    margin-top: 10px;
+    font-size: initial;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+/*Modal for Ajax Loading Class*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 255, 255, 255, .8 ) url('images/ajax-loader.gif') 50% 50% no-repeat;
+}
+
+.loader {
+    display: block;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/ajax-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+#selectType1 {
+    width: 195px;
+    height: 34px;
+    margin-left: 5%
+}
+
+#selectType2 {
+    width: 165px;
+    height: 34px;
+    margin-left: 15%
+}
+
+#headerpanel {
+    width: 202px;
+    margin: 10px 0px 0px 15px;
+}
+
+
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.page-top-margin {
+    margin-top: 4% !important;
+}
+
+
+#header1, #header2, #header3, #header4, #header5, #header6, #header7, #header8, #header9, #header10, #header11, #header12, #header13, #header14, #header15, #header16, #header17, #header18, #mailheading, #hardwaredata {
+    background-color: #0056A3;
+    color: #ffffff
+}
+
+#btnadd {
+    background-color: #296029;
+    color: #ffffff
+}
+
+#btnadd {
+    background-color: #296029;
+    color: #ffffff
+}
+
+#btnminus {
+    background-color: #A42823;
+    color: #ffffff
+}
+
+
+#toggle1 {
+    background-color: #0059A3;
+    color: #ffffff
+}
+/*#endregion*/
+
+/*Select Type Checklst */
+#CheckListDropDown {
+    border-radius: 4px;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 200px;
+    /*display: inline-block;*/
+    border-radius: 4px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#tfsSubmitBtn {
+    top: 100px;
+}
+
+#chk-items {
+    padding: 8px;
+    border-radius: 5px;
+    display: inline;
+}
+
+.checklistoptions {
+    position: absolute;
+    /*top: 300px;*/
+    left: 400px;
+}
+
+
+.label-checklist {
+    /*margin-top: 20px;*/
+    margin-left: 0px;
+    padding: 30px;
+    left: 30px;
+    font-size: 20px;
+    color: #337ab7;
+}
+
+
+.submit_div {
+    text-align: center;
+}
+
+
+
+#borderbox1 {
+    padding-right: 10px;
+    overflow: auto;
+    /*width: 95%;*/
+}
+
+
+#viewlabel {
+    font-size: 14px;
+}
+
+#viewpanel, #createpanel {
+    font-size: 14px;
+}
+
+label.required::after {
+    content: "*";
+    font-weight: bold;
+    color: red;
+}
